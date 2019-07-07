@@ -1,12 +1,12 @@
 package com.example.coolweather.db;
 
-import org.litepal.crud.DataSupport;
+import org.litepal.crud.LitePalSupport;
 
 /**
  * @创建者 李琛
  * 2019/6/25 23:10
  */
-public class City extends DataSupport {
+public class City extends LitePalSupport {
 
     private int id;
     private String cityName; //记录市的名字
